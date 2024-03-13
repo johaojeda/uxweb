@@ -1,22 +1,27 @@
-<div style="background-color: #001749; color: #ffffff; font-family: 'Poppins', sans-serif; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 50px 20px;">
-  <!-- Encabezado -->
-  <h1 style="font-size: 2.5em; margin-top: 20px;">Navegación pantallas de Alarmatic Home</h1>
-  
-  <!-- Menú -->
-  <nav>
-      <ul style="list-style-type: none; padding: 0;">
-          <li style="margin-bottom: 10px;"><a routerLink="/registro" style="text-decoration: none; color: #ffffff;">Registro</a></li>
-          <li style="margin-bottom: 10px;"><a routerLink="/home" style="text-decoration: none; color: #ffffff;">Home</a></li>
-          <li style="margin-bottom: 10px;"><a routerLink="/anadir-invitado" style="text-decoration: none; color: #ffffff;">Añadir Invitado</a></li>
-          <li><a routerLink="/rutinas" style="text-decoration: none; color: #ffffff;">Rutinas</a></li>
-      </ul>
-  </nav>
-  
-  <!-- Contenido de la página -->
-  <router-outlet></router-outlet>
-  
-  <!-- Pie de página -->
-  <footer style="margin-top: auto;">
-      <p>Johana Ojeda & Juan Otálvaro</p>
-  </footer>
+<div style="background-color: #001749; color: #ffffff; font-family: 'Poppins', sans-serif; width: 100%; height: 100%; display: flex; flex-direction: column;">
+    <!-- Título y Menú -->
+    <div style="background-color: #001749; display: flex; justify-content: space-between; align-items: center; padding: 20px;">
+      <h1 style="font-size: 2.5em; margin: 0;">Alarmatic Home</h1>
+      <nav>
+        <ul style="list-style-type: none; padding: 0; margin: 0; display: flex;">
+            <li style="margin-right: 20px;"><a routerLink="/registro" style="text-decoration: none; color: #ffffff;">Registro</a></li>
+            <li style="margin-right: 20px;"><a routerLink="/home" style="text-decoration: none; color: #ffffff;">Home</a></li>
+            <li style="margin-right: 20px;"><a routerLink="/anadir-invitado" style="text-decoration: none; color: #ffffff;">Añadir Invitado</a></li>
+            <li><a routerLink="/rutinas" style="text-decoration: none; color: #ffffff;">Rutinas</a></li>
+        </ul>
+      </nav>
+    </div>
+    
+    <!-- Línea blanca -->
+    <hr style="border: 1px solid #ffffff; margin: 0;">
+    
+    <!-- Contenido de la página -->
+    <div style="flex: 1; padding: 20px;">
+      <router-outlet></router-outlet>
+    </div>
+    
+    <!-- Pie de página -->
+    <footer style="margin-top: auto; padding: 20px;">
+        <p>Johana Ojeda & Juan Otálvaro</p>
+    </footer>
 </div>
