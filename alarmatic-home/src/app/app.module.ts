@@ -3,10 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RegistroComponent } from './registro/registro.component';
+import { HomeComponent } from './home/home.component';
+import { AnadirInvitadoComponent } from './anadir-invitado/anadir-invitado.component';
+import { RutinasComponent } from './rutinas/rutinas.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RegistroComponent,
+    HomeComponent,
+    AnadirInvitadoComponent,
+    RutinasComponent
   ],
   imports: [
     BrowserModule,
