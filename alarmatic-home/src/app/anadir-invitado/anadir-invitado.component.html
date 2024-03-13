@@ -1,1 +1,67 @@
-<p>anadir-invitado works!</p>
+<div style="display: flex; height: 100vh;">
+    <!-- Menú -->
+    <div style="background-color: #ffffff; color: #000000; font-family: 'Poppins', sans-serif; width: 25%; padding: 40px;">
+        <h2 style="font-weight: bold; text-align: center;">Menú</h2>
+        <nav>
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; color: #000000;">Control</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; color: #000000;">Invitados</a></li>
+                <li style="margin-bottom: 10px;"><a href="#" style="text-decoration: none; color: #000000;">Rutinas</a></li>
+                <li><a href="#" style="text-decoration: none; color: #000000;">Reportes</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    
+    <div style="background-color: #001749; color: #ffffff; font-family: 'Poppins', sans-serif; width: 75%; padding: 50px; margin: 50px;">
+        <h2 style="font-size: 2em; text-align: center;">Invitados</h2>
+        <p style="font-size: 1.5em;">Agrega o elimina invitados de tus rutinas</p>
+
+        <div style="margin-top: 50px;">
+            
+            <table style="width: 100%; margin-bottom: 20px; border-collapse: collapse;">
+                <tr>
+                    <th style="border: 1px solid #ffffff; padding: 10px;">Invitado</th>
+                    <th style="border: 1px solid #ffffff; padding: 10px;">Rutina</th>
+                    <th style="border: 1px solid #ffffff; padding: 10px; width: 150px;">Acciones</th> 
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ffffff; padding: 10px;">Juan</td>
+                    <td style="border: 1px solid #ffffff; padding: 10px;">Persianas</td>
+                    <td style="border: 1px solid #ffffff; text-align: center; padding: 10px;">
+                        <button class="edit-button" style="font-size: 1.2em;"><i class="fas fa-edit"></i> </button>
+                        <span style="margin: 0 10px;"></span> 
+                        <button class="delete-button" style="font-size: 1.2em;"><i class="fas fa-trash-alt"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ffffff; padding: 10px;">Ricardo</td>
+                    <td style="border: 1px solid #ffffff; padding: 10px;">Puerta 1</td>
+                    <td style="border: 1px solid #ffffff; text-align: center; padding: 10px;">
+                        <button class="edit-button" style="font-size: 1.2em;"><i class="fas fa-edit"></i> </button>
+                        <span style="margin: 0 10px;"></span> <!-- Espacio entre los botones -->
+                        <button class="delete-button" style="font-size: 1.2em;"><i class="fas fa-trash-alt"></i> </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ffffff; padding: 10px;">Johana</td>
+                    <td style="border: 1px solid #ffffff; padding: 10px;">Humidificador</td>
+                    <td style="border: 1px solid #ffffff; text-align: center; padding: 10px;">
+                        <button class="edit-button" style="font-size: 1.2em;"><i class="fas fa-edit"></i> </button>
+                        <span style="margin: 0 10px;"></span> <!-- Espacio entre los botones -->
+                        <button class="delete-button" style="font-size: 1.2em;"><i class="fas fa-trash-alt"></i> </button>
+                    </td>
+                </tr>
+            </table>
+            <!-- Fin de la tabla con información existente -->
+
+            <!-- Botón de añadir -->
+            <div style="text-align: center;">
+                <button style="padding: 10px 20px; width: 40%; font-size: 1.2em; background-color: #FFD1A7; border: none; border-radius: 5px;">Añadir</button>
+            </div>
+            <!-- Fin del botón de añadir -->
+        </div>
+    </div>
+    <!-- Botón "Salir" -->
+    <button style="position: absolute; top: 125px; right: 20px; padding: 10px 20px; background-color: #FFD1A7; border: none; border-radius: 5px; font-family: 'Poppins', sans-serif;">Salir</button>
+</div>

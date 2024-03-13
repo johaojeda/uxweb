@@ -8,6 +8,29 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <!-- Agrega la fuente de Google Fonts Poppins -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    /* Estilos para los botones de editar y borrar */
+    .edit-button, .delete-button {
+      background-color: #FFD1A7; /* Color de fondo del botón */
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      transition: background-color 0.3s ease; /* Transición suave del color de fondo */
+    }
+
+    /* Estilos para el icono dentro del botón */
+    .edit-button .fas,
+    .delete-button .fas {
+      color: black; /* Color del icono */
+    }
+
+    /* Cambio del color de fondo al pasar el cursor sobre el botón */
+    .edit-button:hover,
+    .delete-button:hover {
+      background-color: #FFA500; /* Cambia el color de fondo al pasar el cursor */
+    }
+  </style>
 </head>
 <body>
   <app-root></app-root>
