@@ -13,42 +13,40 @@
     </div>
 
     <!-- Contenido -->
-    <div style="background-color: #001749; color: #ffffff; font-family: 'Poppins', sans-serif; width: 75%; padding: 50px; margin: 50px;">
-        <h2 class="mt-5 mb-4 text-center">Añadir Rutina</h2>
+    <div style="background-color: #001749; color: #ffffff; font-family: 'Poppins', sans-serif;  width: 75%; padding: 70px; margin: 2px;">
+        <h2 style="font-size: 2em; text-align: center;">Añadir Rutina</h2>
 
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    
-                        <div class="form-group">
-                            <label for="nombre">Nombre:</label>
-                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
-                        </div>
-                        <div class="form-group">
-                            <label for="dispositivo">Dispositivo:</label>
-                            <input type="text" class="form-control" id="dispositivo" placeholder="Dispositivo">
-                        </div>
-                        <div class="form-group">
-                            <label for="invitado">Invitado:</label>
-                            <input type="text" class="form-control" id="invitado" placeholder="Invitado">
-                        </div>
-                        <div class="form-group">
-                            <label for="descripcion">Descripción:</label>
-                            <textarea class="form-control" id="descripcion" placeholder="Descripción"></textarea>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="fecha">Fecha:</label>
-                            <input type="date" class="form-control" id="fecha">
-                        </div>
-                        <div class="form-group">
-                            <label for="hora">Hora:</label>
-                            <input type="time" class="form-control" id="hora">
-                        </div>
-                        <div class="form-group">
-                            <label for="sonido">Sonido:</label>
-                            <select class="form-control" id="sonido">
+        <div class="container text-align: center" style="font-size: 1.2em;">
+            <table class="table text-align: center" style="margin-left: 310px;">
+                <tbody>
+                    <tr>
+                        <td style="width: 150px;">Nombre:</td>
+                        <td><input type="text" class="form-control form-control-lg"></td>
+                    </tr>
+                    <tr>
+                        <td>Dispositivo:</td>
+                        <td><input type="text" class="form-control form-control-lg"></td>
+                    </tr>
+                    <tr>
+                        <td>Invitado:</td>
+                        <td><input type="text" class="form-control form-control-lg"></td>
+                    </tr>
+                    <tr>
+                        <td>Descripción:</td>
+                        <td><textarea class="form-control form-control-lg"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Fecha:</td>
+                        <td><input type="date" class="form-control form-control-lg"></td>
+                    </tr>
+                    <tr>
+                        <td>Hora:</td>
+                        <td><input type="time" class="form-control form-control-lg"></td>
+                    </tr>
+                    <tr>
+                        <td>Sonido:</td>
+                        <td>
+                            <select class="form-control form-control-lg">
                                 <option value="">Seleccione un sonido</option>
                                 <option value="cancion1">Canción 1</option>
                                 <option value="cancion2">Canción 2</option>
@@ -56,15 +54,19 @@
                                 <option value="cancion4">Canción 4</option>
                                 <option value="cancion5">Canción 5</option>
                             </select>
-                        </div>
-                    </div>
-                </div>
-            
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+        <p> </p>
+        <p> </p>
+        <div class="registro-buttons" style="display: flex; justify-content: center;">
+            <button class="aceptar-button" style="width: 150px; font-size: 1.2em; padding: 10px; background-color: #FFD1A7; color: #000000; margin-right: 10px; border-radius: 10px;">Aceptar</button>
+            <button class="cancelar-button" style="width: 150px; font-size: 1.2em; padding: 10px; background-color: #FFD1A7; color: #000000; border-radius: 10px;">Cancelar</button>
+        </div>
+        <!-- Botón "Salir" -->
+        <button class="cancelar-button" style="position: absolute; top: 125px; right: 20px; padding: 10px 20px; background-color: #FFD1A7; color: #000000; border: none; border-radius: 10px; font-family: 'Poppins', sans-serif;">Salir</button>
 
-        <div class="text-center mt-4">
-            <button type="button" class="btn" style="background-color: #FFD1A7; color: #000000;">Aceptar</button>
-            <button type="button" class="btn ml-2" style="background-color: #FFD1A7; color: #000000;">Cancelar</button>
-        </div>
     </div>
 </div>
