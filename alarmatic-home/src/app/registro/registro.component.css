@@ -15,22 +15,6 @@
     border: none;
   }
   
-  .registro-buttons button {
-    padding: 10px ;
-    margin-right: 10px;
-    border: none;
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-  }
   
-  .aceptar-button {
-    background-color: #FFD1A7;
-    color: black;
-  }
   
-  .cancelar-button {
-    background-color: #FFD1A7;
-    color: black;
-  }
   
